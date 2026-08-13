@@ -27,3 +27,9 @@ def download_specific_tab(sheet_id: str, gid: str, output_file: str):
 if __name__ == "__main__":
     output_path = "summary_sheet.csv"
     download_specific_tab(MASTER_GSHEET_ID, MASTER_GSHEET_SUMMARY_GID, output_path)
+
+
+'''____________________________________OUTPUT__________________________________________'''
+
+'''2026-08-13 11:24:13 [INFO] Start downloading tab (GID: 345736693) at: Thu Aug 13 11:24:13 2026
+2026-08-13 11:24:14 [INFO] End time: Thu Aug 13 11:24:14 2026 | Duration: 1.18 seconds'''
