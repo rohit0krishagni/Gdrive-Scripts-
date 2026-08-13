@@ -27,4 +27,10 @@ if __name__ == "__main__":
     download_drive_folder(SECURITY_TC_DATA_GDRIVE_FOLDER_ID, SECURITY_TC_DATA_DIR)
 
     logger.info("Downloading Query Test Data Folder...")
-    download_drive_folder(QUERY_TC_DATA_GDRIVE_FOLDER_ID, QUERY_TC_DATA_DIR)
+    download_drive_folder(QUERY_TC_DATA_GDRIVE_FOLDER_ID, QUERY_TC_DATA_DIR) 
+
+
+'''____________________________________OUTPUT__________________________________________'''
+
+'''Download completed
+2026-08-13 11:27:35 [INFO] Completed downloading folder to query_tests/tc_data. Duration: 27.40 seconds'''
