@@ -27,3 +27,8 @@ def download_sheet_xlsx(sheet_id: str, output_file: str):
 if __name__ == "__main__":
     output_path = "master_sheet.xlsx"
     download_sheet_xlsx(MASTER_GSHEET_ID, output_path)
+
+_______________________________OUTPUT___________________________________________ 
+
+'''2026-08-13 11:29:53 [INFO] Start downloading master sheet as XLSX at: Thu Aug 13 11:29:53 2026
+2026-08-13 11:29:55 [INFO] End time: Thu Aug 13 11:29:55 2026 | Duration: 1.75 seconds'''
